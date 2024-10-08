@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('https://m.media-amazon.com/images/I/81l8CXqtgNL.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Estilo del título */
+h2 {
+    color: white;
+    font-size: 2.5em;
+    margin-top: 20px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+/* Estilo de la imagen grande */
+img {
+    margin-top: 20px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilo de los botones */
+button {
+    margin: 15px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Centrar los botones */
+button img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
